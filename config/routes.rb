@@ -3,7 +3,7 @@ SampleApp::Application.routes.draw do
 
   get "static_pages/help"
 
-map.resources :jobs
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
