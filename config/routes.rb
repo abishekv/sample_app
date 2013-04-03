@@ -1,5 +1,5 @@
 SampleApp::Application.routes.draw do
-
+  resources :users
 # match '/contact', :to => 'pages#contact'
 
   root              to: 'static_pages#home'
